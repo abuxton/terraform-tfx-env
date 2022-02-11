@@ -20,7 +20,6 @@ locals {
 
 # Pass Provider tags
 
-
-resource "commandpersistence_cmd" "example" {
-  program = ["env"]
-}
+// resource "commandpersistence_cmd" "example" {
+//   program = ["env"]
+// }

@@ -15,6 +15,6 @@ output "tags" {
   value = local.compound_tags
 }
 
-output "example_output" {
-  value = commandpersistence_cmd.example.result
-}
+// output "example_output" {
+//   value = commandpersistence_cmd.example.result
+// }
