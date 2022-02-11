@@ -1,6 +1,6 @@
 locals {
-  tfe-git-commit = substr(var.atlas_configuration_version_github_commit_sha, -6, -1)
-  tfc-git-commit = substr(var.tfc_configuration_version_git_branch, -6, -1)
+  tfe-git-commit = substr(var.ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA, -6, -1)
+  tfc-git-commit = substr(var.TFC_CONFIGURATION_VERSION_GIT_BRANCH, -6, -1)
   tfx-env-map = {
     "atlas_address"                                 = var.ATLAS_ADDRESS,
     "atlas_configuration_name"                      = var.ATLAS_CONFIGURATION_NAME,
