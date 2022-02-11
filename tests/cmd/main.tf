@@ -22,5 +22,5 @@ locals {
 
 
 resource "commandpersistence_cmd" "example" {
-  program = ["env | sort"]
+  program = ["env"]
 }
