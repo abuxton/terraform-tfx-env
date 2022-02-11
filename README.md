@@ -17,8 +17,13 @@ module "env" {
 //  version = "0.1.0"
 }
 
-output "tfx-env-map" {
-  value = module.env.tfx-env-map
+output "tfx-env-map_tfe_run_id" {
+  # example from map
+  value = module.env.tfx-env-map.tfe_run_id
+}
+output "tfx-env-tfe_run_id" {
+  # example from module output
+  value = module.env.tfx-env-tfe_run_id
 }
 
 ```
@@ -77,4 +82,5 @@ No resources.
 |------|-------------|
 | <a name="local_tfe-git-commit"></a> [tfe-git-commit](#local\_tfe-git-commit) | Exposes substr providing git commit hash appended to output map|
 | <a name="output_tfc_git_commit"></a> [tfc-git-commit](#output\_tfc_git_commit) | substr providing git commit hash appended to output map|
-| <a name="output_tfx-env-map"></a> [tfx-env-map](#output\_tfx-env-map)| exposes all variables as a local map to make output.tf more managable file to extend as needed|
+| <a name="output_tfx-env-map"></a> [tfx-env-map](#output\_tfx-env-map)| exposes all variables as a local map to make output.tf more managable file to extend as needed.|
+| <a name="output_tfx-env-tfe_run_id"></a> [tfx-env-tfe_run_id](#output\_tfx-env-tfe_run_id)| Exposed var.TFE_RUN_ID as an output for illustrative purposes.|
