@@ -13,7 +13,7 @@ locals {
     "tfc_configuration_version_git_commit_sha"      = var.tfc_configuration_version_git_commit_sha,
     "tfc_run_id"                                    = var.tfc_run_id,
     "tfc_workspace_name"                            = var.tfc_workspace_name,
-    "tfc_workspace_slug"                            = var.tfc_workspace_slug,
+    "tfc_workspace_slug"                            = var.TFC_WORKSPACE_SLUG,
     "tfe_run_id"                                    = var.tfe_run_id,
     "tfe-git-commit"                                = local.tfe-git-commit,
     "tfc-git-commit"                                = local.tfc-git-commit
