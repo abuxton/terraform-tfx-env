@@ -35,19 +35,19 @@ No resources.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_ATLAS_ADDRESS"></a> [ATLAS\_ADDRESS](#input\_ATLAS\_ADDRESS) | Exposes TF\_VAR\_ATLAS\_ADDRESS=https://app.terraform.io | `string` | `""` | no |
-| <a name="input_ATLAS_CONFIGURATION_NAME"></a> [ATLAS\_CONFIGURATION\_NAME](#input\_ATLAS\_CONFIGURATION\_NAME) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_NAME=<workspace name> | `string` | `""` | no |
-| <a name="input_ATLAS_CONFIGURATION_SLUG"></a> [ATLAS\_CONFIGURATION\_SLUG](#input\_ATLAS\_CONFIGURATION\_SLUG) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_SLUG=<organization>/<workspace> | `string` | `""` | no |
-| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_BRANCH"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH) | Exposes  TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH=<branch> | `string` | `""` | no |
-| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA=<sha> | `string` | `""` | no |
-| <a name="input_ATLAS_RUN_ID"></a> [ATLAS\_RUN\_ID](#input\_ATLAS\_RUN\_ID) | Exposes TF\_VAR\_ATLAS\_RUN\_ID=run-<id> | `string` | `""` | no |
-| <a name="input_ATLAS_WORKSPACE_NAME"></a> [ATLAS\_WORKSPACE\_NAME](#input\_ATLAS\_WORKSPACE\_NAME) | Exposes  TF\_VAR\_ATLAS\_WORKSPACE\_NAME=<workspace> | `string` | `""` | no |
-| <a name="input_ATLAS_WORKSPACE_SLUG"></a> [ATLAS\_WORKSPACE\_SLUG](#input\_ATLAS\_WORKSPACE\_SLUG) | Exposes   TF\_VAR\_ATLAS\_WORKSPACE\_SLUG=<organization>/<workspace> | `string` | `""` | no |
-| <a name="input_TFC_CONFIGURATION_VERSION_GIT_BRANCH"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH) | Exposes TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH=<branch> | `string` | `""` | no |
-| <a name="input_TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA) | Exposes  TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA=<sha> | `string` | `""` | no |
-| <a name="input_TFC_RUN_ID"></a> [TFC\_RUN\_ID](#input\_TFC\_RUN\_ID) | Exposes TF\_VAR\_TFC\_RUN\_ID=run-<id> | `string` | `""` | no |
-| <a name="input_TFC_WORKSPACE_NAME"></a> [TFC\_WORKSPACE\_NAME](#input\_TFC\_WORKSPACE\_NAME) | Exposes TF\_VAR\_TFC\_WORKSPACE\_NAME =<workspace> | `string` | `""` | no |
-| <a name="input_TFC_WORKSPACE_SLUG"></a> [TFC\_WORKSPACE\_SLUG](#input\_TFC\_WORKSPACE\_SLUG) | Exposes TF\_VAR\_TFC\_WORKSPACE\_SLUG = <organization>/<workspace> | `string` | `""` | no |
-| <a name="input_TFE_RUN_ID"></a> [TFE\_RUN\_ID](#input\_TFE\_RUN\_ID) | Exposes TF\_VAR\_TFE\_RUN\_ID = run-<id> | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_NAME"></a> [ATLAS\_CONFIGURATION\_NAME](#input\_ATLAS\_CONFIGURATION\_NAME) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_NAME=workspace | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_SLUG"></a> [ATLAS\_CONFIGURATION\_SLUG](#input\_ATLAS\_CONFIGURATION\_SLUG) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_SLUG=organization/workspace | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_BRANCH"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH) | Exposes  TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH=branchname | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA=sha | `string` | `""` | no |
+| <a name="input_ATLAS_RUN_ID"></a> [ATLAS\_RUN\_ID](#input\_ATLAS\_RUN\_ID) | Exposes TF\_VAR\_ATLAS\_RUN\_ID=run-id | `string` | `""` | no |
+| <a name="input_ATLAS_WORKSPACE_NAME"></a> [ATLAS\_WORKSPACE\_NAME](#input\_ATLAS\_WORKSPACE\_NAME) | Exposes  TF\_VAR\_ATLAS\_WORKSPACE\_NAME=workspace | `string` | `""` | no |
+| <a name="input_ATLAS_WORKSPACE_SLUG"></a> [ATLAS\_WORKSPACE\_SLUG](#input\_ATLAS\_WORKSPACE\_SLUG) | Exposes   TF\_VAR\_ATLAS\_WORKSPACE\_SLUG=organization/workspace | `string` | `""` | no |
+| <a name="input_TFC_CONFIGURATION_VERSION_GIT_BRANCH"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH) | Exposes TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH=branchname | `string` | `""` | no |
+| <a name="input_TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA) | Exposes  TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA=sha | `string` | `""` | no |
+| <a name="input_TFC_RUN_ID"></a> [TFC\_RUN\_ID](#input\_TFC\_RUN\_ID) | Exposes TF\_VAR\_TFC\_RUN\_ID=run-id | `string` | `""` | no |
+| <a name="input_TFC_WORKSPACE_NAME"></a> [TFC\_WORKSPACE\_NAME](#input\_TFC\_WORKSPACE\_NAME) | Exposes TF\_VAR\_TFC\_WORKSPACE\_NAME =workspace | `string` | `""` | no |
+| <a name="input_TFC_WORKSPACE_SLUG"></a> [TFC\_WORKSPACE\_SLUG](#input\_TFC\_WORKSPACE\_SLUG) | Exposes TF\_VAR\_TFC\_WORKSPACE\_SLUG = organization/workspace | `string` | `""` | no |
+| <a name="input_TFE_RUN_ID"></a> [TFE\_RUN\_ID](#input\_TFE\_RUN\_ID) | Exposes TF\_VAR\_TFE\_RUN\_ID = run-id | `string` | `""` | no |
 
 ## Outputs
 
@@ -57,7 +57,7 @@ No resources.
 | <a name="output_tfx-env-map"></a> [tfx-env-map](#output\_tfx-env-map) | Exposes the environment variables created during a TF(x) (TFC \|\| TFE) run as a map |
 <!-- END_TF_DOCS -->
 
-## locals
+## Locals
 
 | Name | Description |
 |------|-------------|
