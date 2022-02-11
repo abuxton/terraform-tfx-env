@@ -16,6 +16,11 @@ module "env" {
   source  = "abuxton/env/tfx"
 //  version = "0.1.0"
 }
+
+output "tfx-env-map" {
+  value = module.env.tfx-env-map
+}
+
 ```
 
 *ALL* variables have a default `""` string, the variables are not expected to be set with values.
