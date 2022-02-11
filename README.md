@@ -11,7 +11,7 @@ see `./tests/default` for usage example.
 
 available from <https://registry.terraform.io/modules/abuxton/env/tfx/latest>
 
-``` json
+``` HCL
 module "env" {
   source  = "abuxton/env/tfx"
 //  version = "0.1.0"
