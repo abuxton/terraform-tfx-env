@@ -6,6 +6,9 @@ output "tfx-env-json" {
   value       = jsonencode(local.tfx-env-map)
   description = "Exposes the environment variables created during a TF(x) (TFC || TFE) run as json object, to do with as you wish"
 }
+output "tfx-env-tfe_run_id" {
+  value = var.TFE_RUN_ID
+}
 // output "tfx-env-map" {
 //   description = "Exposes the environment variables created during a TF(x) (TFC || TFE) run as a map"
 //   value = {
