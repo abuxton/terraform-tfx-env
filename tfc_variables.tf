@@ -18,7 +18,7 @@ variable "tfc_workspace_name" {
   description = "Exposes TF_VAR_TFC_WORKSPACE_NAME =<workspace>"
   default     = ""
 }
-variable "tfc_workspace_slug" {
+variable "TFC_WORKSPACE_SLUG" {
   type        = string
   description = "Exposes TF_VAR_TFC_WORKSPACE_SLUG = <organization>/<workspace>"
   default     = ""
