@@ -9,7 +9,16 @@ Atlas is a term still in use in TFC and TFE previously the name of Terraform Clo
 ## Usage
 see `./tests/default` for usage example.
 
-*ALL* variables have a default `""` string, the variables are not expected to be injected with values.
+available from <https://registry.terraform.io/modules/abuxton/env/tfx/latest>
+
+``` json
+module "env" {
+  source  = "abuxton/env/tfx"
+//  version = "0.1.0"
+}
+```
+
+*ALL* variables have a default `""` string, the variables are not expected to be set with values.
 
 Envisioned as some form of data for use, auditing and utility purposes.
 
