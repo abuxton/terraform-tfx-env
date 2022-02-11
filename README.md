@@ -1,5 +1,17 @@
 # Terraform Environment Data
 
+This module exposes environmental variables in a TF(x) TFE or TFC, so they can be used for tags or outputs.
+
+Not all variables are always populated due to the differences between deployments and versions of TF(x).
+
+Atlas is a term still in use in TFC and TFE previously the name of Terraform Cloud Service.
+
+## Usage
+see `./tests/default` for usage example.
+
+*ALL* variables have a default `""` string, the variables are not expected to be injected with values.
+
+Envisioned as some form of data for use, auditing and utility purposes.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -44,3 +56,11 @@ No resources.
 | <a name="output_tfx-env-json"></a> [tfx-env-json](#output\_tfx-env-json) | Exposes the environment variables created during a TF(x) (TFC \|\| TFE) run as json object, to do with as you wish |
 | <a name="output_tfx-env-map"></a> [tfx-env-map](#output\_tfx-env-map) | Exposes the environment variables created during a TF(x) (TFC \|\| TFE) run as a map |
 <!-- END_TF_DOCS -->
+
+## locals
+
+| Name | Description |
+|------|-------------|
+| <a name="local_tfe-git-commit"></a> [tfe-git-commit](#local\_tfe-git-commit) | Exposes substr providing git commit hash appended to output map|
+| <a name="output_tfc_git_commit"></a> [tfc-git-commit](#output\_tfc_git_commit) | substr providing git commit hash appended to output map|
+

@@ -1,0 +1,3 @@
+module "tfx-env" {
+  source = "../.."
+}
