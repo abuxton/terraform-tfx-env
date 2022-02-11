@@ -1,19 +1,19 @@
-variable "tfc_configuration_version_git_branch" {
+variable "TFC_CONFIGURATION_VERSION_GIT_BRANCH" {
   type        = string
   description = "Exposes TF_VAR_TFC_CONFIGURATION_VERSION_GIT_BRANCH=<branch>"
   default     = ""
 }
-variable "tfc_configuration_version_git_commit_sha" {
+variable "TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA" {
   type        = string
   description = "Exposes  TF_VAR_TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA=<sha>"
   default     = ""
 }
-variable "tfc_run_id" {
+variable "TFC_RUN_ID" {
   type        = string
   description = "Exposes TF_VAR_TFC_RUN_ID=run-<id>"
   default     = ""
 }
-variable "tfc_workspace_name" {
+variable "TFC_WORKSPACE_NAME" {
   type        = string
   description = "Exposes TF_VAR_TFC_WORKSPACE_NAME =<workspace>"
   default     = ""

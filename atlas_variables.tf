@@ -1,39 +1,39 @@
-variable "atlas_address" {
+variable "ATLAS_ADDRESS" {
   type        = string
   description = "Exposes TF_VAR_ATLAS_ADDRESS=https://app.terraform.io"
   default     = ""
 }
-variable "atlas_configuration_name" {
+variable "ATLAS_CONFIGURATION_NAME" {
   type        = string
   description = "Exposes TF_VAR_ATLAS_CONFIGURATION_NAME=<workspace name>"
   default     = ""
 }
-variable "atlas_configuration_slug" {
+variable "ATLAS_CONFIGURATION_SLUG" {
   type        = string
   description = "Exposes TF_VAR_ATLAS_CONFIGURATION_SLUG=<organization>/<workspace>"
   default     = ""
 }
-variable "atlas_configuration_version_github_branch" {
+variable "ATLAS_CONFIGURATION_VERSION_GITHUB_BRANCH" {
   type        = string
   description = "Exposes  TF_VAR_ATLAS_CONFIGURATION_VERSION_GITHUB_BRANCH=<branch>"
   default     = ""
 }
-variable "atlas_configuration_version_github_commit_sha" {
+variable "ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA" {
   type        = string
   description = "Exposes TF_VAR_ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA=<sha>"
   default     = ""
 }
-variable "atlas_run_id" {
+variable "ATLAS_RUN_ID" {
   type        = string
   description = "Exposes TF_VAR_ATLAS_RUN_ID=run-<id>"
   default     = ""
 }
-variable "atlas_workspace_name" {
+variable "ATLAS_WORKSPACE_NAME" {
   type        = string
   description = "Exposes  TF_VAR_ATLAS_WORKSPACE_NAME=<workspace>"
   default     = ""
 }
-variable "atlas_workspace_slug" {
+variable "ATLAS_WORKSPACE_SLUG" {
   type        = string
   description = "Exposes   TF_VAR_ATLAS_WORKSPACE_SLUG=<organization>/<workspace>"
   default     = ""

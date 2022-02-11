@@ -34,20 +34,20 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_atlas_address"></a> [atlas\_address](#input\_atlas\_address) | Exposes TF\_VAR\_ATLAS\_ADDRESS=https://app.terraform.io | `string` | `""` | no |
-| <a name="input_atlas_configuration_name"></a> [atlas\_configuration\_name](#input\_atlas\_configuration\_name) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_NAME=<workspace name> | `string` | `""` | no |
-| <a name="input_atlas_configuration_slug"></a> [atlas\_configuration\_slug](#input\_atlas\_configuration\_slug) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_SLUG=<organization>/<workspace> | `string` | `""` | no |
-| <a name="input_atlas_configuration_version_github_branch"></a> [atlas\_configuration\_version\_github\_branch](#input\_atlas\_configuration\_version\_github\_branch) | Exposes  TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH=<branch> | `string` | `""` | no |
-| <a name="input_atlas_configuration_version_github_commit_sha"></a> [atlas\_configuration\_version\_github\_commit\_sha](#input\_atlas\_configuration\_version\_github\_commit\_sha) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA=<sha> | `string` | `""` | no |
-| <a name="input_atlas_run_id"></a> [atlas\_run\_id](#input\_atlas\_run\_id) | Exposes TF\_VAR\_ATLAS\_RUN\_ID=run-<id> | `string` | `""` | no |
-| <a name="input_atlas_workspace_name"></a> [atlas\_workspace\_name](#input\_atlas\_workspace\_name) | Exposes  TF\_VAR\_ATLAS\_WORKSPACE\_NAME=<workspace> | `string` | `""` | no |
-| <a name="input_atlas_workspace_slug"></a> [atlas\_workspace\_slug](#input\_atlas\_workspace\_slug) | Exposes   TF\_VAR\_ATLAS\_WORKSPACE\_SLUG=<organization>/<workspace> | `string` | `""` | no |
-| <a name="input_tfc_configuration_version_git_branch"></a> [tfc\_configuration\_version\_git\_branch](#input\_tfc\_configuration\_version\_git\_branch) | Exposes TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH=<branch> | `string` | `""` | no |
-| <a name="input_tfc_configuration_version_git_commit_sha"></a> [tfc\_configuration\_version\_git\_commit\_sha](#input\_tfc\_configuration\_version\_git\_commit\_sha) | Exposes  TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA=<sha> | `string` | `""` | no |
-| <a name="input_tfc_run_id"></a> [tfc\_run\_id](#input\_tfc\_run\_id) | Exposes TF\_VAR\_TFC\_RUN\_ID=run-<id> | `string` | `""` | no |
-| <a name="input_tfc_workspace_name"></a> [tfc\_workspace\_name](#input\_tfc\_workspace\_name) | Exposes TF\_VAR\_TFC\_WORKSPACE\_NAME =<workspace> | `string` | `""` | no |
-| <a name="input_tfc_workspace_slug"></a> [tfc\_workspace\_slug](#input\_tfc\_workspace\_slug) | Exposes TF\_VAR\_TFC\_WORKSPACE\_SLUG = <organization>/<workspace> | `string` | `""` | no |
-| <a name="input_tfe_run_id"></a> [tfe\_run\_id](#input\_tfe\_run\_id) | Exposes TF\_VAR\_TFE\_RUN\_ID = run-<id> | `string` | `""` | no |
+| <a name="input_ATLAS_ADDRESS"></a> [ATLAS\_ADDRESS](#input\_ATLAS\_ADDRESS) | Exposes TF\_VAR\_ATLAS\_ADDRESS=https://app.terraform.io | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_NAME"></a> [ATLAS\_CONFIGURATION\_NAME](#input\_ATLAS\_CONFIGURATION\_NAME) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_NAME=<workspace name> | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_SLUG"></a> [ATLAS\_CONFIGURATION\_SLUG](#input\_ATLAS\_CONFIGURATION\_SLUG) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_SLUG=<organization>/<workspace> | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_BRANCH"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH) | Exposes  TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_BRANCH=<branch> | `string` | `""` | no |
+| <a name="input_ATLAS_CONFIGURATION_VERSION_GITHUB_COMMIT_SHA"></a> [ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA](#input\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA) | Exposes TF\_VAR\_ATLAS\_CONFIGURATION\_VERSION\_GITHUB\_COMMIT\_SHA=<sha> | `string` | `""` | no |
+| <a name="input_ATLAS_RUN_ID"></a> [ATLAS\_RUN\_ID](#input\_ATLAS\_RUN\_ID) | Exposes TF\_VAR\_ATLAS\_RUN\_ID=run-<id> | `string` | `""` | no |
+| <a name="input_ATLAS_WORKSPACE_NAME"></a> [ATLAS\_WORKSPACE\_NAME](#input\_ATLAS\_WORKSPACE\_NAME) | Exposes  TF\_VAR\_ATLAS\_WORKSPACE\_NAME=<workspace> | `string` | `""` | no |
+| <a name="input_ATLAS_WORKSPACE_SLUG"></a> [ATLAS\_WORKSPACE\_SLUG](#input\_ATLAS\_WORKSPACE\_SLUG) | Exposes   TF\_VAR\_ATLAS\_WORKSPACE\_SLUG=<organization>/<workspace> | `string` | `""` | no |
+| <a name="input_TFC_CONFIGURATION_VERSION_GIT_BRANCH"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH) | Exposes TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_BRANCH=<branch> | `string` | `""` | no |
+| <a name="input_TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA"></a> [TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA](#input\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA) | Exposes  TF\_VAR\_TFC\_CONFIGURATION\_VERSION\_GIT\_COMMIT\_SHA=<sha> | `string` | `""` | no |
+| <a name="input_TFC_RUN_ID"></a> [TFC\_RUN\_ID](#input\_TFC\_RUN\_ID) | Exposes TF\_VAR\_TFC\_RUN\_ID=run-<id> | `string` | `""` | no |
+| <a name="input_TFC_WORKSPACE_NAME"></a> [TFC\_WORKSPACE\_NAME](#input\_TFC\_WORKSPACE\_NAME) | Exposes TF\_VAR\_TFC\_WORKSPACE\_NAME =<workspace> | `string` | `""` | no |
+| <a name="input_TFC_WORKSPACE_SLUG"></a> [TFC\_WORKSPACE\_SLUG](#input\_TFC\_WORKSPACE\_SLUG) | Exposes TF\_VAR\_TFC\_WORKSPACE\_SLUG = <organization>/<workspace> | `string` | `""` | no |
+| <a name="input_TFE_RUN_ID"></a> [TFE\_RUN\_ID](#input\_TFE\_RUN\_ID) | Exposes TF\_VAR\_TFE\_RUN\_ID = run-<id> | `string` | `""` | no |
 
 ## Outputs
 
@@ -63,4 +63,4 @@ No resources.
 |------|-------------|
 | <a name="local_tfe-git-commit"></a> [tfe-git-commit](#local\_tfe-git-commit) | Exposes substr providing git commit hash appended to output map|
 | <a name="output_tfc_git_commit"></a> [tfc-git-commit](#output\_tfc_git_commit) | substr providing git commit hash appended to output map|
-
+| <a name="output_tfx-env-map"></a> [tfx-env-map](#output\_tfx-env-map)| exposes all variables as a local map to make output.tf more managable file to extend as needed|
