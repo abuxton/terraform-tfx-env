@@ -3,8 +3,8 @@ module "env" {
   // version = "0.1.2"
 }
 
-resource "null_resource" "envs" {
-  provisioner "local-exec" {
-    command = "env| sort "
-  }
-}
+# resource "null_resource" "envs" {
+#   provisioner "local-exec" {
+#     command = "env| sort "
+#   }
+# }
