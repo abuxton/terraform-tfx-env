@@ -1,7 +1,7 @@
 variable "TFC_CONFIGURATION_VERSION_GIT_BRANCH" {
   type        = string
   description = "Exposes TF_VAR_TFC_CONFIGURATION_VERSION_GIT_BRANCH=branchname"
-  default     = "test"
+  default     = ""
 }
 variable "TFC_CONFIGURATION_VERSION_GIT_COMMIT_SHA" {
   type        = string
